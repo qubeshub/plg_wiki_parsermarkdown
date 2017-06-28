@@ -16,7 +16,7 @@ For more information about HUBzero, visit https://hubzero.org.
 
 ## Installation
 
-PHP 5.4+
-HUBzero 2.1.2+
+* PHP 5.4+
+* HUBzero 2.1.2+
 
-Place these files into a directory called `{HUB WEBROOT}/app/plugins/wiki/parsermarkdown` of your HUBzero install. Move the migration file into the `{HUB WEBROOT}/app/migrations` directory. Run migrations: `php muse migration -f`. This will install the necessary database entry for the CMS to become of aware of and load the plugin. Next, the plugin must be enabled via the Administrative Plugin Manager interface. Remember to disable any other wiki parser plugins!
+Place these files into a directory called `{HUB WEBROOT}/app/plugins/wiki/parsermarkdown` of your HUBzero install. Move the migration file into the `{HUB WEBROOT}/app/migrations` directory. Run migrations: `php muse migration -f`. This will install the necessary database entry for the CMS to become of aware of and load the plugin. Next, the plugin must be enabled via the Administrative Plugin Manager interface of your hub. Remember to disable any other wiki parser plugins!
